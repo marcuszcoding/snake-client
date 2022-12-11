@@ -10,6 +10,9 @@ const connect = function () {
   conn.on("connect", (connect) => {
     console.log("Connected to game")
     conn.write("Name: MKZ")
+    // setTimeout( () => {
+    //   conn.write(`Move: up`)
+    // }, 2000)
   });
 
   conn.on("data", (data) => {
