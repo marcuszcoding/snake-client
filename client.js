@@ -9,7 +9,7 @@ const connect = function () {
 
   conn.on("connect", (connect) => {
     console.log("Connected to game")
-    console.log("Name: MKZ")
+    conn.write("Name: MKZ")
   });
 
   conn.on("data", (data) => {
