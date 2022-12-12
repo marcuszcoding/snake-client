@@ -1,5 +1,5 @@
 const net = require("net");
-const { IP, PORT } = require("./constants");
+const { IP, PORT } = require("./constants"); // importing IP and port variables from constants file
 
 // establishes a connection with the game server
 const connect = function() {
@@ -9,11 +9,8 @@ const connect = function() {
   });
 
   conn.on("connect", (connect) => {
-    console.log("Connected to game");
-    conn.write("Name: MKZ");
-    // setTimeout( () => {
-    //   conn.write(`Move: up`)
-    // }, 2000)
+    console.log("Connected to game"); // logs connected string to console to show we are connected to the server
+    conn.write("Name: MKZ"); // initials
   });
 
   conn.on("data", (data) => {
