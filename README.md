@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Want to play a game?"](https://raw.githubusercontent.com/taniarascia/snek/master/snek.gif)
+!["gif 1"](https://raw.githubusercontent.com/taniarascia/snek/master/snek.gif)
 
 
 ## Getting Started
