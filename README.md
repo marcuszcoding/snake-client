@@ -8,8 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["gif 1"](https://raw.githubusercontent.com/taniarascia/snek/master/snek.gif)
-
+<img src = screenshot.png>
 
 ## Getting Started
 
