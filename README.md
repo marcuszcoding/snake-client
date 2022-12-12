@@ -15,10 +15,10 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side.
 - Run the development snake client using the `node play.js` command.
-- Remember that your movement keys are: \n
-  "W" to move up. \n
-  "A" to move left. \n
-  "S" to move down. 
-  "D" to move right.
+- Remember that your movement keys are:  
+  "W" to move up.  
+  "A" to move left.  
+  "S" to move down.  
+  "D" to move right.  
 - You may also use the key "R" to say "Wassup" to any people playing with you!
   
